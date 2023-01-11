@@ -1,4 +1,4 @@
-#content-head {
+.content-head {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -10,12 +10,12 @@
     max-width: 400px;
 }
 
-#name-input {
+.name-input {
     height: 30px;
     width: 550px;
 }
 
-#add-button {
+.add-button {
     display: flex;
     justify-content: center;
     align-items: center;

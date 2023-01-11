@@ -1,4 +1,4 @@
-#main-content {
+.main-content {
     display: flex;
     justify-content: center;
 
@@ -6,7 +6,7 @@
     width: 100%;
 }
 
-#content-wrap {
+.content-wrap {
     display: flex;
     justify-content: center;
 

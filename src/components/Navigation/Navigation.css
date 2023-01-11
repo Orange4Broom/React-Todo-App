@@ -1,4 +1,4 @@
-#navigation {
+.navigation {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -8,7 +8,7 @@
     border-bottom: 2px solid rgba(255, 255, 255, 0.15);
 }
 
-#navigation-wrap {
+.navigation-wrap {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -20,37 +20,37 @@
     padding: 0 20px;
 }
 
-#navigation-header {
+.navigation-header {
     display: flex;
     flex-direction: row;
     align-items: center;
     column-gap: 10px;
 }
 
-#name-of-project {
+.name-of-project {
     font-size: 22px;
     font-weight: 500;
     color: white;
 }
 
-#green-header {
+.green-header {
     font-size: 26px;
     font-weight: bold;
     color: #49c04f;
 }
 
-#git-link {
+.git-link {
     text-decoration: none;
     font-size: 28px;
     position: relative;
     color: rgba(255, 255, 255, 0.7);
 }
 
-#git-link:hover {
+.git-link:hover {
     color: rgba(255, 255, 255, 1);
 }
 
-#git-link::after {
+.git-link::after {
     content: "";
     display: block;
     height: 3px;
@@ -62,6 +62,6 @@
     transition: all ease-in-out 200ms;
 }
 
-#git-link:hover::after {
+.git-link:hover::after {
     width: 100%;
   }

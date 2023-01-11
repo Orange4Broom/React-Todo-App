@@ -4,9 +4,9 @@ import '../ContentHead/ContentHead.css'
 
 function ContentHead() {
     return (
-        <div id="content-head">
-            <input type="text" name="name-input" id="name-input" />
-            <Icon name='plus' type='fas' id='add-button'/>
+        <div className="content-head">
+            <input type="text" name="name-input" className="name-input" />
+            <Icon name='plus' type='fas' className='add-button'/>
         </div>
     )
 }

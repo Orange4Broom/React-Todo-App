@@ -5,13 +5,13 @@ import './Navigation.css'
 function Navigation() {
     return (
         <>
-            <nav id="navigation">
-                <div id="navigation-wrap">
-                    <div id="navigation-header">
+            <nav className="navigation">
+                <div className="navigation-wrap">
+                    <div className="navigation-header">
                         <img src="/calendar.png" alt="calendar-image" height="38px" />
-                        <h1 id="name-of-project"><span id="green-header">To</span>Do App</h1>
+                        <h1 className="name-of-project"><span className="green-header">To</span>Do App</h1>
                     </div>
-                    <a href="https://github.com/Orange4Broom" target="_blank" id='git-link'>
+                    <a href="https://github.com/Orange4Broom" target="_blank" className='git-link'>
                         <Icon name='github' type='fab' />
                     </a>                    
                 </div>

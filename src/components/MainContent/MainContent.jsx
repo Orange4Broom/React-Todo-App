@@ -3,8 +3,8 @@ import './MainContent.css';
 
 function MainContent() {
     return (
-        <div id='main-content'>
-            <div id='content-wrap'>
+        <div className='main-content'>
+            <div className='content-wrap'>
                 <ContentHead />
             </div>
         </div>
