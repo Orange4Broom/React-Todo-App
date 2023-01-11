@@ -6,8 +6,8 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 library.add(fas);
 library.add(fab);
 
-const Icon = ({ name, type }) => (
-    <div className="icon">
+const Icon = ({ name, type, ...otherProps }) => (
+    <div className="icon" {...otherProps}>
         <FontAwesomeIcon icon={[type, name]} />
     </div>
 );
