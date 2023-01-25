@@ -1,11 +1,11 @@
-import ContentHead from '../ContentHead/ContentHead';
+import Content from '../Content/Content';
 import './MainContent.css';
 
 function MainContent() {
     return (
         <div className='main-content'>
             <div className='content-wrap'>
-                <ContentHead />
+                <Content />
             </div>
         </div>
     )

@@ -1,6 +1,6 @@
 .main-content {
     display: flex;
-    justify-content: center;
+    align-items: center;
 
     height: auto;
     width: 100%;
@@ -8,13 +8,12 @@
 
 .content-wrap {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 
     min-height: 50vh;
     width: 100%;
     max-width: 1700px;
 
     padding: 50px 20px;
-
-    background-color: rgba(127, 255, 212, 0.295);
 }
